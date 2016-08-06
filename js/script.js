@@ -1,8 +1,8 @@
 $(function(){
     var w= document.documentElement.clientWidth|| document.body.clientWidth;
     var h= document.documentElement.clientHeight|| document.body.clientHeight;
-    $("body").css('width',w);
-    $("body").css('height',h);
+    $("body").css('width',w+'px');
+    $("body").css('height',h+'px');
 	$(".seting").bind('click',function(event){
 		event.stopPropagation();
 		$("#seting-main").toggle();
